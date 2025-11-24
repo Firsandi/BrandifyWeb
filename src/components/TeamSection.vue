@@ -1,12 +1,12 @@
 <template>
-  <section class="py-16 px-6 bg-gradient-to-b from-white to-gray-50" id="team">
+  <section class="px-6 py-16 bg-gradient-to-b from-white to-gray-50" id="team">
     <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-bold text-center text-gray-900 mb-8">Team Kami</h3>
-      <p class="text-center text-gray-600 max-w-2xl mx-auto mb-10">
+      <h3 class="mb-8 text-3xl font-bold text-center text-purple-800">Tim Kami</h3>
+      <p class="max-w-2xl mx-auto mb-10 text-center text-gray-600">
         Tim multidisiplin kami menggabungkan desain, pengembangan, dan strategi digital untuk membantu bisnis kamu tumbuh.
       </p>
 
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <TransitionGroup name="list" tag="div" class="contents">
           <TeamCard v-for="m in members" :key="m.id" :member="m" />
         </TransitionGroup>
@@ -47,7 +47,7 @@ const members = ref([
   {
     id: 4,
     name: 'Hanif Rizqi Fadilah',
-    role: 'CMM',
+    role: 'COO',
     bio: 'Project Manager & Client Success.',
     photo: '/images/hanif.jpeg',
     instagram: 'https://instagram.com/pip.iii'

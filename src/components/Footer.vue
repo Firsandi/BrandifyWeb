@@ -12,7 +12,7 @@
         <ul class="flex flex-wrap gap-4 text-sm justify-center md:justify-start">
           <li><a href="#tentang" class="hover:text-purple-300 transition">Tentang Kami</a></li>
           <li><a href="#layanan" class="hover:text-purple-300 transition">Layanan</a></li>
-          <li><a href="#tim" class="hover:text-purple-300 transition">Tim</a></li>
+          <li><a href="#team" class="hover:text-purple-300 transition">Tim</a></li>
           <li><a href="#porto" class="hover:text-purple-300 transition">Portofolio</a></li>
           <li><a href="#kontak" class="hover:text-purple-300 transition">Kontak</a></li>
         </ul>
